@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.dropdown-style{
+	width: auto;
+	height: auto;
+	background-color: #ddd;
+	color: black;
+}
+.nav{
+	margin-left: 200px;
+}
+.nav ul{
+	position: relative;
+	list-style: none;
+}
+.nav ul li a:hover{
+	background-color: red;
+	color: #fff;
+}
+.nav ul li:hover .drop{
+	display: block;
+}
+.nav ul ul li:hover .drop-2{
+	display: block;
+}
+.nav ul ul ul{
+	position: absolute;
+	left: 100%;
+	top: 68%;
+	display: block;
+	float: none;
+
+}
+.nav ul ul ul li{
+	display: block;
+	float: none;
+}
+.nav ul li{
+	float: left;
+}
+.nav ul li a{
+	display:block;
+	background-color: #ddd;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+.nav ul li ul{
+	display: none;
+	position: absolute;
+}
+.nav ul li ul li {
+	float: none;
+}
+.nav ul li ul li a{
+	padding-right: 40px;
+}
