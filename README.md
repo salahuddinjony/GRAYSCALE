@@ -17,8 +17,8 @@
   
   
 [My website] (https://salahuddinjony.tk, "with me")
-- [] Items 1
-- [] Items 2
+- [ ] Items 1
+- [ ] Items 2
 - [x] items
 
 
